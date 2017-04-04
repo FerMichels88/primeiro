@@ -16,20 +16,20 @@ lab.test('retorno da soma de 7 e 7 deve ser 14', (done) => {
     done();
 });
 
-lab.test('retorno da soma de 150 e 300 deve ser 450', (done) => {
+lab.test('retorno da soma de 150 e 150 deve ser 300', (done) => {
 
-    Code.expect(soma(150, 350)).to.equal(450);
+    Code.expect(soma(150, 150)).to.equal(300);
     done();
 });
 
-lab.test('retorno da soma de 37 e a deve ser 37', (done) => {
+lab.test('retorno da soma de 37 e 5 deve ser 37', (done) => {
 
-    Code.expect(soma(37, a)).to.equal(37);
+    Code.expect(soma(37, 5)).to.equal(42);
     done();
 });
 
-lab.test('retorno da divisao de 20 com 2 deve ser 10', (done) => {
+lab.test('retorno da soma de 20 com 2 deve ser 22', (done) => {
 
-    Code.expect(soma(20, 2)).to.equal(10);
+    Code.expect(soma(20, 2)).to.equal(22);
     done();
 });
