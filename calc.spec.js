@@ -33,3 +33,19 @@ lab.test('retorno da soma de 20 com 2 deve ser 22', (done) => {
     Code.expect(soma(20, 2)).to.equal(22);
     done();
 });
+
+lab.test('retorno da soma de -100 e -100 deve ser -200', (done) => {
+
+    Code.expect(soma(-100, -100)).to.equal(-200);
+    done();
+});
+
+var A = 1;
+var B = 2;
+var C = (A + B);
+
+lab.test('retorno da soma de A e B deve ser C', (done) => {
+
+    Code.expect(soma(A, B)).to.equal(C);
+    done();
+});
